@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Flow Unlock</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div class="logo">FL</div>
+      <div>
+        <div class="kicker">flow.google.com</div>
+        <h1>Flow Unlock</h1>
+      </div>
+    </header>
+
+    <section class="row">
+      <div>
+        <b>Патч региона</b>
+        <small>Только на вкладках Flow</small>
+      </div>
+      <input id="enabled" type="checkbox" role="switch">
+    </section>
+
+    <p id="status">Проверяю…</p>
+    <p id="error"></p>
+    <p id="stats"></p>
+
+    <div class="grid">
+      <button id="open">Открыть Flow</button>
+      <button id="restart" class="ghost">Перезапустить</button>
+    </div>
+
+    <footer>Нужен VPN. Расширение не читает аккаунт и ничего не отправляет.</footer>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

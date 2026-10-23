@@ -1,0 +1,7 @@
+*.orig-backup
+*.bak
+*.zip
+*.exe
+*.asar
+node_modules/
+dist/
